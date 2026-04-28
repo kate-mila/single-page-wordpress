@@ -1,0 +1,11 @@
+#sample-single-page-wordpress
+#version.2
+
+{
+  "version": 2,
+  "name": "kate-project",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/api/index" }
+  ],
+  "trailingSlash": false
+}
